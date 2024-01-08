@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsolatedFunctionsConnectionClosed", "src\IsolatedFunctionsConnectionClosed.csproj", "{88251B29-458B-4D6E-8A37-12CF51C6601E}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "ArmTemplates", "ArmTemplates\ArmTemplates.deployproj", "{29521CC9-F14F-4562-89F3-02C767DEB7BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A1A4103-506E-4754-87F5-D6EDF98CAB4F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88251B29-458B-4D6E-8A37-12CF51C6601E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88251B29-458B-4D6E-8A37-12CF51C6601E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88251B29-458B-4D6E-8A37-12CF51C6601E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88251B29-458B-4D6E-8A37-12CF51C6601E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29521CC9-F14F-4562-89F3-02C767DEB7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29521CC9-F14F-4562-89F3-02C767DEB7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29521CC9-F14F-4562-89F3-02C767DEB7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29521CC9-F14F-4562-89F3-02C767DEB7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B9F681E-154E-4733-9336-6FE92DB0CA26}
+	EndGlobalSection
+EndGlobal

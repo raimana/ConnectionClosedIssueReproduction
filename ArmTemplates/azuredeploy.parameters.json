@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appServicePlan": {
+      "value": "app service plan name here"
+    },
+    "functionAppName": {
+      "value": "function app name here"
+    },
+    "storageAccountName": {
+      "value": "storage account name here"
+    },
+    "appInsightsName": {
+      "value": "app insights name here"
+    },
+    "keyVaultName": {
+      "value": "key vault name here"
+    },
+    "sftpHost": {
+      "value": "sftp host name here"
+    },
+    "sftpPort": {
+      "value": "22"
+    },
+    "sftpUsername": {
+      "value": ""
+    },
+    "sftpAuthMode": {
+      "value": ""
+    },
+    "sftpPassword": {
+      "value": ""
+    },
+    "maxIterations": {
+      "value": "30"
+    },
+    "SftpDirectory": {
+      "value": ""
+    },
+    "winScpSchedule": {
+      "value": "0 0 0 * * *"
+    },
+    "sshNetSchedule": {
+      "value": "0 0 0 * * *"
+    }
+  }
+}

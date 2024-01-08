@@ -1,0 +1,19 @@
+﻿{
+    "version": "2.0",
+    "logging": {
+        "fileLoggingMode": "debugOnly",
+        "logLevel": {
+            "IsolatedFunctionsConnectionClosed": "Information",
+            "Function": "Information",
+            "Host.Results": "Information",
+            "Host.Aggregator": "Information",
+            "default": "Error"
+        },
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            }
+        }
+    }
+}
