@@ -1,3 +1,12 @@
+This project is a minimal reproduction of the following issues:
+* https://github.com/sshnet/SSH.NET/issues/511
+* https://github.com/sshnet/SSH.NET/issues/1107
+
+It has 2 durable functions looping through a function/activity that's listing files from an SFTP site, the number of iterations is defined by the `MaxIterations` setting.
+
+One durable function uses WinSCP, and the other uses SSH.NET.
+
+----
 ### How to Run Locally
 Add the following `local.settings.json` substituting environment variables with the appropriate values:
 
